@@ -39,6 +39,7 @@ Works automatically and predicts the number in a stupid way (will count from 1 t
 
 - `random_predic`: function that has one argument (integer) which predict the number by random between 1 to 1000
 - `score_game`: function that has one argument (function) which find out average number of the predicts in the argument
+- `random_generate`: the same function as [numnumpy.random.randint](https://numpy.org/doc/stable/reference/random/generated/numpy.random.randint.html) but with preset of numbers between 1 to 100
 - `dumb_predic`: function that has one argument (integer) which predict the number by counting from 1 to 100
 - `smart_predict`: function that has one argument (integer) which predict the number in a Ninja way
 
