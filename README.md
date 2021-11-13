@@ -1,55 +1,62 @@
-# Проект 0. Угадай число
+# Project 0. Guess number
 
-## Оглавление  
-[1. Описание проекта](.README.md#Описание-проекта)  
-[2. Какой кейс решаем?](.README.md#Какой-кейс-решаем)  
-[3. Краткая информация о данных](.README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](.README.md#Этапы-работы-над-проектом)  
-[5. Результат](.README.md#Результат)    
-[6. Выводы](.README.md#Выводы) 
+## Contents
 
-### Описание проекта    
-Угадать загаданное компьютером число за минимальное число попыток.
+1. [Description](README.md#Description)
+2. [For what?](README.md#for-what)
+3. [Short information about data](README.md#Short-information-about-data)
+4. [Stages of work on the project](README.md#Stages-of-work-on-the-project)
+5. [Results](README.md#Results)
+6. [Conclusion](README.md#Conclusion)
 
-:arrow_up:[к оглавлению](_)
+### Description
 
+Script that will guess a random number with a less attempts.
 
-### Какой кейс решаем?    
-Нужно написать программу, которая угадывает число за минимальное число попыток
+### For what?
 
-**Условия соревнования:**  
-- Компьютер загадывает целое число от 0 до 100, и нам его нужно угадать. Под «угадать», подразумевается «написать программу, которая угадывает число».
-- Алгоритм учитывает информацию о том, больше ли случайное число или меньше нужного нам.
+Home work for [SkillFactory](https://skillfactory.ru/).
+Have to write the program, that will guess the number with less attempt.
 
-**Метрика качества**     
-Результаты оцениваются по среднему количеству попыток при 1000 повторений
+**Conditions:**
 
-**Что практикуем**     
-Учимся писать хороший код на python
+- Computer will generate number between 0 to 100 and we have to find out which number is it. `find out` means - write a progrma, that will guess the number.
+- Algorithm will check - is the number is more or less of our guess
 
+**Quality metric**
+Results will be measured as average of 1000th attempts
 
-### Краткая информация о данных
-....
-  
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+**What we will practice**
+Learning to write good code in Python
 
+### Short information about data
 
-### Этапы работы над проектом  
-....
+#### [First version](src/game.py)
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+Works automatically and predicts the number in a stupid way (will count from 1 to 100 until find out the answer).
 
+#### [Second version](src/game_v2.py)
 
-### Результаты:  
-....
+- `dumb_predic`: function that has one argument (integer) which predict the number by counting from 1 to 100
+- `score_game`: function that has one argument (function) which find out average number of the predicts in the argument
+- `smart_predict`: function that has one argument (integer) which predict the number in a Ninja way
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+### Stages of work on the project
 
+1. Translate Russian texts to English
+2. Creat function `smart_predict` in [game_v2](src/game_v2.py)
+3. Export `requirements.txt` for python libraries for [PIP](https://pypi.org/project/pip/)
+4. Export `environment.yml` for [Anaconda](https://www.anaconda.com/) environment
+5. Update [presentation](src/game.ipynb) for [Jupyter Notebook](https://jupyter.org/)
 
-### Выводы:  
-....
+### Results:
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+`smart_predict` should predict the number less than a 20 tries
 
+### Conclusion:
 
-Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️⭐️⭐️-дами
+You can see presentation with [Jupyter Notebook](https://jupyter.org/) **[here](game.ipynb)**
+
+:arrow*up:[go to contents](*)
+
+If information about this project may seems interesting to you, I will be happy if you click on ⭐️ for me <3
