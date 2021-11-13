@@ -57,6 +57,6 @@ Works automatically and predicts the number in a stupid way (will count from 1 t
 
 You can see presentation with [Jupyter Notebook](https://jupyter.org/) **[here](game.ipynb)**
 
-:arrow*up:[go to contents](*)
+:arrow*up:[go to contents](#)
 
 If information about this project may seems interesting to you, I will be happy if you click on ⭐️ for me <3
