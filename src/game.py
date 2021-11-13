@@ -3,14 +3,13 @@
 import numpy as np
 
 number = np.random.randint(1, 101) # generating the number
-
-# count of tries
-count = 0
+count = 0 # count of tries
 
 while True:
-    count+=1
+    count += 1
+
     predict_number = int(input("Guess number from 1 to 100: "))
-    
+
     if predict_number > number:
         print("Number should be lower!")
 
@@ -19,4 +18,4 @@ while True:
     
     else:
         print(f"You did guess right! The number is = {number}, {count} tries")
-        break #end game, breaking the loop
+        break # end game, breaking the loop

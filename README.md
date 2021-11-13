@@ -37,8 +37,9 @@ Works automatically and predicts the number in a stupid way (will count from 1 t
 
 #### [Second version](src/game_v2.py)
 
-- `dumb_predic`: function that has one argument (integer) which predict the number by counting from 1 to 100
+- `random_predic`: function that has one argument (integer) which predict the number by random between 1 to 1000
 - `score_game`: function that has one argument (function) which find out average number of the predicts in the argument
+- `dumb_predic`: function that has one argument (integer) which predict the number by counting from 1 to 100
 - `smart_predict`: function that has one argument (integer) which predict the number in a Ninja way
 
 ### Stages of work on the project
@@ -57,6 +58,6 @@ Works automatically and predicts the number in a stupid way (will count from 1 t
 
 You can see presentation with [Jupyter Notebook](https://jupyter.org/) **[here](game.ipynb)**
 
-:arrow*up:[go to contents](#)
+:arrow\*up:[go to contents](#)
 
 If information about this project may seems interesting to you, I will be happy if you click on ⭐️ for me <3
